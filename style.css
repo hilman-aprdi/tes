@@ -1,0 +1,41 @@
+body {
+    background-color: #101720;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.bg-orange {
+    background: orange!important;
+}
+
+.hero {
+    height: 100vh;
+    display: grid;
+    width: 70vw;
+    place-items: center;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: orange;
+    margin: 10px 0;
+    padding: 5px 13px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.gallery .img-cont {
+    padding: 10PX 20PX;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-cont img {
+    width: 100%;
+    border-radius: 20px;
+}
